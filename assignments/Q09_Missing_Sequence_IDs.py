@@ -13,7 +13,7 @@
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC USE sql_interview_prep;
+# MAGIC USE SCHEMA sql_interview_prep;
 # MAGIC -- Preview input data
 # MAGIC SELECT DISTINCT order_id FROM orders_raw ORDER BY order_id;
 

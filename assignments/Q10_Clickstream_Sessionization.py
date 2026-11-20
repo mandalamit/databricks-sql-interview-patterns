@@ -13,7 +13,7 @@
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC USE sql_interview_prep;
+# MAGIC USE SCHEMA sql_interview_prep;
 # MAGIC -- Preview input data
 # MAGIC SELECT * FROM clickstream_events ORDER BY user_id, event_ts;
 

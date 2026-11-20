@@ -11,7 +11,7 @@
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC USE sql_interview_prep;
+# MAGIC USE SCHEMA sql_interview_prep;
 # MAGIC
 # MAGIC WITH stats AS (
 # MAGIC   SELECT *,

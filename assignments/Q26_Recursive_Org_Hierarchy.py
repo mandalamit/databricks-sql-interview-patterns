@@ -13,7 +13,7 @@
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC USE sql_interview_prep;
+# MAGIC USE SCHEMA sql_interview_prep;
 # MAGIC -- Preview input data
 # MAGIC SELECT emp_id, emp_name, manager_id FROM employees;
 

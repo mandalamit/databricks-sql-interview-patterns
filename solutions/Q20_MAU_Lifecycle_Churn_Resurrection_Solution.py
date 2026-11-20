@@ -14,7 +14,7 @@
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC USE sql_interview_prep;
+# MAGIC USE SCHEMA sql_interview_prep;
 # MAGIC
 # MAGIC WITH monthly_active AS (
 # MAGIC   SELECT DISTINCT customer_id,

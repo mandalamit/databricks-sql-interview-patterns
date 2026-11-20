@@ -11,7 +11,7 @@
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC USE sql_interview_prep;
+# MAGIC USE SCHEMA sql_interview_prep;
 # MAGIC
 # MAGIC WITH prod_rev AS (
 # MAGIC   SELECT product_name, ROUND(SUM(amount), 2) AS product_rev

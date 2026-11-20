@@ -11,7 +11,7 @@
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC USE sql_interview_prep;
+# MAGIC USE SCHEMA sql_interview_prep;
 # MAGIC
 # MAGIC SELECT order_id,
 # MAGIC        raw_json:source AS source,

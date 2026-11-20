@@ -11,7 +11,7 @@
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC USE sql_interview_prep;
+# MAGIC USE SCHEMA sql_interview_prep;
 # MAGIC
 # MAGIC WITH basket AS (
 # MAGIC   SELECT DISTINCT customer_id, order_date, product_name

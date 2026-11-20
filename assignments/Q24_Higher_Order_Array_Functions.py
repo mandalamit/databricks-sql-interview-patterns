@@ -15,7 +15,7 @@
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC USE sql_interview_prep;
+# MAGIC USE SCHEMA sql_interview_prep;
 # MAGIC -- Preview input data
 # MAGIC SELECT order_id, items FROM nested_orders;
 

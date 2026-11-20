@@ -20,14 +20,14 @@ databricks-sql-interview-patterns/
     └── Q30_Capstone_Executive_Metrics_Solution.py
 ```
 
-## Quick Start (Databricks Community Edition & Enterprise)
+## Quick Start (Databricks Free Edition & Enterprise)
 
 1. **Import into Databricks:**
-   - **Enterprise / Databricks Repos:** Clone this GitHub repo via **Workspace > Repos > Add Repo**.
-   - **Databricks Community Edition:** Download the repo as ZIP, unzip it, and import `Day00_Setup.py` and the `assignments/` notebooks via **Workspace > Import**.
+   - **Git Folders / Repos:** Connect this GitHub repo via **Workspace > Create > Git folder**.
+   - **Manual Import:** Download the repo as ZIP, unzip it, and import `Day00_Setup.py` and the `assignments/` notebooks via **Workspace > Import**.
 2. **Run `Day00_Setup.py` Once:**
-   - Attach to a cluster and click **Run All**.
-   - Creates the `sql_interview_prep` database and 9 realistic Delta tables (employees, orders_raw, orders_silver, user_logins, subscriptions, clickstream_events, product_prices, nested_orders, warehouse_routes).
+   - Attach to Serverless compute (or your cluster) and click **Run All**.
+   - Creates the `sql_interview_prep` schema in your active Unity Catalog (e.g., `workspace.sql_interview_prep` in Free Edition) and 9 realistic Delta tables (employees, orders_raw, orders_silver, user_logins, subscriptions, clickstream_events, product_prices, nested_orders, warehouse_routes).
 3. **Solve by Pattern:**
    - Open `assignments/QXX_*.py`, read the problem statement, schema, and expected output, and write your SQL in the `# TODO` cell.
    - Compare your approach and edge-case handling against `solutions/QXX_*_Solution.py`.

@@ -13,7 +13,7 @@
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC USE sql_interview_prep;
+# MAGIC USE SCHEMA sql_interview_prep;
 # MAGIC -- Preview input data
 # MAGIC SELECT product_name, SUM(amount) AS rev FROM orders_raw WHERE status='COMPLETED' GROUP BY product_name;
 

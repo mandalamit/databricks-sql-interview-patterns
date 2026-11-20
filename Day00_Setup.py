@@ -18,8 +18,9 @@
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC CREATE DATABASE IF NOT EXISTS sql_interview_prep;
-# MAGIC USE sql_interview_prep;
+# MAGIC CREATE SCHEMA IF NOT EXISTS sql_interview_prep;
+# MAGIC USE SCHEMA sql_interview_prep;
+# MAGIC SELECT current_catalog() AS active_catalog, current_schema() AS active_schema;
 
 # COMMAND ----------
 

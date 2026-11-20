@@ -11,7 +11,7 @@
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC USE sql_interview_prep;
+# MAGIC USE SCHEMA sql_interview_prep;
 # MAGIC
 # MAGIC WITH RECURSIVE org_tree AS (
 # MAGIC   SELECT emp_id, emp_name, manager_id, 1 AS level, emp_name AS reporting_path

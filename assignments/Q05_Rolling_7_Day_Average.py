@@ -13,7 +13,7 @@
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC USE sql_interview_prep;
+# MAGIC USE SCHEMA sql_interview_prep;
 # MAGIC -- Preview input data
 # MAGIC SELECT order_date, SUM(amount) AS daily_rev FROM orders_raw WHERE status='COMPLETED' GROUP BY order_date ORDER BY order_date;
 

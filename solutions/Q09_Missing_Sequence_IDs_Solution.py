@@ -11,7 +11,7 @@
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC USE sql_interview_prep;
+# MAGIC USE SCHEMA sql_interview_prep;
 # MAGIC
 # MAGIC WITH bounds AS (
 # MAGIC   SELECT MIN(order_id) AS min_id, MAX(order_id) AS max_id FROM orders_raw

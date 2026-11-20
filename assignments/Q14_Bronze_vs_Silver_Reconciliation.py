@@ -13,9 +13,9 @@
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC USE sql_interview_prep;
+# MAGIC USE SCHEMA sql_interview_prep;
 # MAGIC -- Preview input data
-# MAGIC SELECT COUNT(*) AS bronze_cnt FROM orders_raw; SELECT COUNT(*) AS silver_cnt FROM orders_silver;
+# MAGIC SELECT 'bronze' AS layer, COUNT(*) AS row_cnt FROM orders_raw UNION ALL SELECT 'silver' AS layer, COUNT(*) AS row_cnt FROM orders_silver;
 
 # COMMAND ----------
 

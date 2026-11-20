@@ -11,7 +11,7 @@
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC USE sql_interview_prep;
+# MAGIC USE SCHEMA sql_interview_prep;
 # MAGIC
 # MAGIC SELECT order_id, customer_id, region, product_name, status, amount, order_date, updated_at
 # MAGIC FROM orders_raw

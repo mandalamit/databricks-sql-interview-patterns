@@ -16,7 +16,7 @@
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC USE sql_interview_prep;
+# MAGIC USE SCHEMA sql_interview_prep;
 # MAGIC -- Preview input data
 # MAGIC SELECT DISTINCT customer_id, DATE_TRUNC('MONTH', order_date) AS m FROM orders_raw WHERE status='COMPLETED' ORDER BY 1, 2;
 

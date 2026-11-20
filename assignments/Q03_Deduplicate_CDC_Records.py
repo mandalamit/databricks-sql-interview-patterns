@@ -13,7 +13,7 @@
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC USE sql_interview_prep;
+# MAGIC USE SCHEMA sql_interview_prep;
 # MAGIC -- Preview input data
 # MAGIC SELECT order_id, COUNT(*) AS cnt FROM orders_raw GROUP BY order_id HAVING COUNT(*) > 1;
 

@@ -13,7 +13,7 @@
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC USE sql_interview_prep;
+# MAGIC USE SCHEMA sql_interview_prep;
 # MAGIC -- Preview input data
 # MAGIC SELECT customer_id, order_date, product_name FROM orders_raw WHERE status='COMPLETED' ORDER BY customer_id, order_date;
 

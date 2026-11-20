@@ -11,7 +11,7 @@
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC USE sql_interview_prep;
+# MAGIC USE SCHEMA sql_interview_prep;
 # MAGIC
 # MAGIC WITH stage_counts AS (
 # MAGIC   SELECT COUNT(DISTINCT CASE WHEN event_type = 'visit' THEN user_id END) AS visitors,

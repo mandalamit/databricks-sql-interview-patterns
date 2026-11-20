@@ -11,7 +11,7 @@
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC USE sql_interview_prep;
+# MAGIC USE SCHEMA sql_interview_prep;
 # MAGIC
 # MAGIC SELECT dept_name, emp_name, salary,
 # MAGIC        DENSE_RANK() OVER (PARTITION BY dept_name ORDER BY salary DESC) AS salary_rank

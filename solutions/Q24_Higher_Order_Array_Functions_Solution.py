@@ -13,7 +13,7 @@
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC USE sql_interview_prep;
+# MAGIC USE SCHEMA sql_interview_prep;
 # MAGIC
 # MAGIC SELECT order_id,
 # MAGIC        AGGREGATE(items, CAST(0.0 AS DOUBLE), (acc, x) -> acc + (x.qty * x.unit_price)) AS order_total,
